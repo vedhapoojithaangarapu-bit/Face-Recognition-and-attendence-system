@@ -1,1 +1,35 @@
+During installation
+Select ONLY these:
+✅ Desktop development with C++
+Make sure these are checked:
+MSVC v143 C++ build tools
+Windows 10/11 SDK
+CMake tools for C++
 
+Then click Install.
+
+
+install pip: py -m pip --version
+Install OpenCV:   py -m pip install opencv-python
+Verify OpenCV installation:  py
+                            import cv2
+                             print(cv2.__version__)
+
+
+Actually i done it python version 3.11.9
+so the commands are going to change
+1. py -3.11 -m pip install flask
+2. py -3.11 -m pip install numpy pandas scikit-learn pillow opencv-python
+3. py -3.11 -m pip install cmake
+4. py -3.11 -m pip install dlib
+5. py -3.11 -m pip install face_recognition
+    Verify Face-recognition installation: py
+                                          import face_recognition
+                                          print("Installed successfully")
+
+For Start Training button:
+     import mediapipe as mp
+     py -3.11 -m pip install mediapipe
+
+
+To run it: py -3.11 app.py
